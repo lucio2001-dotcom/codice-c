@@ -55,6 +55,7 @@ printf("calcolatrice\n premi 1 per addizione\n premi 2 per sottrazione\n premi 3
 
 
             }
+                break;
         case '5':
             {
                 printf ("inserire numero:  ");

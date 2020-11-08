@@ -4,8 +4,8 @@
 int main ()
 {
     int counter;
-    int voto;
-    int totale;
+    float voto;
+    float totale;
 
     counter=1;
     totale=0;
@@ -13,7 +13,7 @@ int main ()
     while ( counter<=11 )
     {
         printf ("inserisci voto:  ");
-        scanf  ("%d", &voto );
+        scanf  ("%f", &voto );
         totale=totale+voto;
         counter=counter+1;
     }
@@ -52,4 +52,6 @@ printf(" 0 gol");
     }
  
     
+
+
 
